@@ -1,0 +1,167 @@
+@import url("//cdn.web-fonts.ge/fonts/alk-rounded-nusx-med/css/alk-rounded-nusx-med.min.css");
+
+
+body {
+    background: linear-gradient(120deg, #2980b9, #8e44ad );
+   font-family: "ALK Rounded Nusx Med", sans-serif;
+   height: 100vh;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
+
+.method input[type=text]{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  margin-left: 40px;
+  
+width: 200px;
+text-decoration: none;
+}
+
+
+
+
+.method input[type=text]:hover{
+border-bottom: 2px solid #16D50F;
+transition: 0.5s;
+
+
+}
+
+.method-1 input[type=password]{
+  border: none;
+  outline: none;
+  border-bottom: 2px solid black;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  width: 200px;
+  margin-left: 40px;
+  
+}
+
+.method-1 input[type=password]:hover{
+border-bottom: 2px solid #26BAFF;
+transition: 0.5s;
+}
+
+ h1{
+  text-align: center;
+  animation: lukson;
+  animation-duration: 20s;
+
+}
+
+
+
+
+
+
+
+.full{
+  position: absolute;
+   background-color: white;
+  left: 45px;
+  top: 280px;
+  border: 2px solid;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  border-bottom: 1px solid black;
+
+}
+
+
+
+.button input[type=submit]{
+  margin-left: 60px;
+  margin-top: 13px;
+  border-radius: 10px;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  border: 2px solid;
+  color: #e9f4fb;
+  background-color: #2691d9;
+  cursor: pointer;
+  outline: none;
+  
+}
+
+button input[type=submit]:hover{
+  background-color: #e9f4fb;
+  transition: .5s;
+
+}
+
+
+
+
+
+
+@keyframes lukson{
+  0%{color: #B2FF11;}
+  10%{color: #E3D626;}
+  20%{color: #EF721A;}
+  30%{color: #1511FF;}
+  40%{color: #187652;}
+  50%{color: #9F2618;}
+  60%{color: #84168C;}
+  70%{color: #8B5757;}
+  80%{color: #FF9191;}
+  90%{color: #085F7D;}
+  100%{color: #370B6F;}
+  
+  0%{color: #B2FF11;}
+  10%{color: #E3D626;}
+  20%{color: #EF721A;}
+  30%{color: #1511FF;}
+  40%{color: #187652;}
+  50%{color: #9F2618;}
+  60%{color: #84168C;}
+  70%{color: #8B5757;}
+  80%{color: #FF9191;}
+  90%{color: #085F7D;}
+  100%{color: #370B6F;}
+}
+
+
+img{
+  position: relative;
+  margin-left: -25px;
+  top: 5px;
+}
+
+.key{
+  position: absolute;
+  top: 132px;
+ left: 248px
+ 
+}
+
+a{
+text-decoration: none;
+list-style-type: none;
+color: black;
+
+}
+
+
+.button a:before {
+  width: 100%;
+  height: 100%;
+}
+
+
+button{
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background-color: #2691d9;
+  color: white;
+  font-family: "ALK Rounded Nusx Med", sans-serif;
+  margin-left: 10px;
+}
